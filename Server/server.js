@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 require('dotenv').config();
-const main = require('./api');
+const io = require('socket.io');
 const verifyJwt = require('./middleware/verifyJwt');
 const cookieParser = require('cookie-parser');
 const PORT = process.env.PORT || 3500;
