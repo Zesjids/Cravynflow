@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 require('dotenv').config();
+const main = require('./api');
 const verifyJwt = require('./middleware/verifyJwt');
 const cookieParser = require('cookie-parser');
 const PORT = process.env.PORT || 3500;
@@ -9,6 +10,8 @@ const PORT = process.env.PORT || 3500;
 app.use(express.urlencoded({ extended: false }))
 
 app.use(express.json());
+
+console.log(main);
 
 app.use(cookieParser());
 
