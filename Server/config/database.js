@@ -45,7 +45,6 @@ async function connectDB() {
     console.log('Database is connected');
 
     const res = await client.query('SELECT * FROM userdata');
-    console.log('Query executed');
     console.log('Number of rows:', res.rowCount);
     console.log('Results:', res.rows);
   }

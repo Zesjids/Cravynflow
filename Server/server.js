@@ -7,7 +7,7 @@ const verifyJwt = require('./middleware/verifyJwt');
 const cookieParser = require('cookie-parser');
 const PORT = process.env.PORT || 3500;
 
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: true }))
 
 app.use(express.json());
 

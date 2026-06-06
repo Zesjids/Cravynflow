@@ -1,6 +1,6 @@
-  <body class="bg-black text-white">
+  <main class="bg-black text-white">
 
-    <main class="max-h-screen w-full px-4 lg:px-16 py-6 bg-[url('/image/bg.jpg')] bg-cover bg-center bg-no-repeat shrink-0">
+    <section class="max-h-screen w-full px-4 lg:px-16 py-6 bg-[url('/image/bg.jpg')] bg-cover bg-center bg-no-repeat shrink-0">
       <div class="min-h-screen w-full bg-black/50">
         <header class="sticky top-4 bottom-6 flex justify-between mb-16">
           <div class="sticky top-4 bottom-6 flex space-x-2 items-center inline-block">
@@ -631,9 +631,9 @@
           <p class="text-[#FFFFFFB3]">© 2026 ChainWatch. All rights reserved.</p>
         </div>
       </div>
-    </main> 
+    </section> 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-  </body>
+  </main>
